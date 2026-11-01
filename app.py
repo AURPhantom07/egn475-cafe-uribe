@@ -1,10 +1,12 @@
+# Alejandro Uribe
+
 # Importing from Flask
 from flask import Flask
 
 # Creating the Flask application object
 app = Flask(__name__)
 
-# Creates the "Lobby" or "Main" page of the website
+# Creates the "Lobby" or "Main" page of the website (Homepage)
 @app.route("/")
 def home():
     return "Welcome to Café Calle Ocho."
